@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(195, 220, 224);
+    ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 453px;
+    display: flex;
+    background: white;
+    flex-direction: column;
+    margin: 175px auto;
+    align-items: center;
+    box-shadow: 0px 7px 11px 0px rgb(137 137 137);
+    border-radius: 8px;
+    min-height: 230px;
+}
+
+.container #title {
+    margin-top:30px;
+    font-size: 1.8rem;
+    margin-bottom: 23px;
+}
+
+input[type="text"] {
+    height: 33px;
+    width: 310px;
+    border: none;
+    padding: 3px 5px;
+    background-color: rgb(222 239 241);
+    font-size: 1.0rem;
+}
+
+input[type="text"]:focus {
+    outline: 3px solid rgb(57, 57, 211);
+}
+
+input[type="submit"] {
+    margin-left: 18px;
+    padding: 2px 19px;
+    height: 27px;
+    border-radius: 9px;
+    border: 2px solid rgb(84, 125, 187);
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    transition:2s;
+}
+input[type="submit"]:hover {
+    transform: scale(1.2);
+}            
+
+tr i {
+    left: 210px;
+
+    cursor: pointer;
+    margin: 1px 8px;
+}
+
+.outer_wrapper {
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    height: 159px;
+    margin-top: 21px;
+    width: 100%;
+}
+
+.symb {
+    height: 40px;
+    width: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.tb_data {
+    width: 409px;
+    font-size: 1.1rem;
+    margin-top: 18px;
+    margin-left: 21px;
+}
+#scrolleble {
+    height: 116px;
+    overflow-y: scroll;
+    width: 99%;
+}
+.rec {
+    height: 25px;
+    width: 70px;
+}
+
+.rec_1 {
+    height: 25px;
+    width: 334px;
+    padding: 3px 6px;
+}
+.alerts {
+    height: 28px;
+    width: 75%;
+    margin-top: 25px;
+    background: #8ef18e;
+    visibility: hidden;
+    border-radius: 13px;
+}
+.alerts #text {
+   text-align: center;
+}
+#dele {
+    margin: 19px;
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
+tr:hover{
+    background-color:rgb(222, 230, 235);
+    cursor: pointer;
+}
