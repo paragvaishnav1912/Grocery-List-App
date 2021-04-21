@@ -1,5 +1,5 @@
-#Grocery List App 
-*Groccery List App simply used for creating the groccery list iteams which is to be purchesed in nearby future
+# Grocery List App 
+* Groccery List App simply used for creating the groccery list iteams which is to be purchesed in nearby future
 
 ## Built With
 
@@ -7,7 +7,7 @@
 * HTML  
 * CSS
 
-##Functions
+## Functions
 
 * user can create the list of iteams 
 * user can edit and delete the indivisual list iteams
