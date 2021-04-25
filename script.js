@@ -1,4 +1,4 @@
-/**This code is writtn by parag_vaishnav */
+/**This code is written by parag_vaishnav */
 let b = document.getElementById( "add" );
 let c = document.getElementById( "pop" );
 let a = document.getElementById( "in" );
@@ -43,6 +43,7 @@ b.addEventListener( "click", () =>
         show();
     }
 } );
+/*pushing the data into the localstorage */
 d = ( data ) =>
 {
     localStorage.setItem( "iteam", JSON.stringify( data ) );
@@ -74,6 +75,7 @@ function show ()
     } );
     c.innerHTML = con;
 };
+/*Clean whole localstorage*/
 function dele ()
 {
     err = "All values are successfully deleted";
@@ -91,7 +93,7 @@ function dele ()
     be.style.display = "none";
     show();
 }
-
+/*delete selected iteam*/
 function del_item ( index )
 {
     err = "One Iteam is deleted";
@@ -148,6 +150,7 @@ function edit_item ( index )
     } );
 
 }
+/*shows alert box */
 show_alerts = ( err, back, color ) =>
 {
     let raw = document.querySelector( "div.alerts" );
